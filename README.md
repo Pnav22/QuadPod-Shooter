@@ -8,7 +8,7 @@ The robot consists of four legs with two joints each. One of these joints uses  
 The turret mechanism consists of two N20 DC motors for flywheels and an SG90 servo motor for reloading. The turret has a vertical tube where 1 cm spherical ammunition is loaded. The servo motor pushes the ammunition into the flywheel mechanism. The flywheels spin at high speeds to shoot the ammunition out.
 
 ## Design
-The prototype was designed in Onshape here.
+The prototype was designed in Onshape [here]([url](https://cad.onshape.com/documents/1f07b48c7f0c844885f208f0/w/35ef43929f689d5c59df734c/e/4c060ffb7e05090ceb09d7bd?renderMode=0&uiState=6873fecd0579b80fab54201e)). 
 
 <img height="640" alt="SpiderCAD" src="https://github.com/user-attachments/assets/bea3b32c-5225-448c-92d8-1fc45c49b6b2" />
 
