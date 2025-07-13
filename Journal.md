@@ -44,6 +44,7 @@ We started the CAD work and got some basic designs going:
 We sent the parts out to get printed. One of our biggest mistakes was spending too much time CADing without grabbing parts early. By the time we went to get motors, most of the ones we needed were gone—we were two short.
 
 We decided to redo the CAD to work with the motors that were still available. Shoutout to Alex for coming in clutch and giving us two extra motors from a workshop!
+<img width="291" height="180" alt="image" src="https://github.com/user-attachments/assets/e6b8b61b-6d58-4796-8534-dc09a7b18025" />
 
 ---
 
