@@ -74,11 +74,19 @@ We printed it out and assembled.
 ## July 12: Roadblock Number 3
 It turned out we messed up. Our legs which are the rectangular brackets that hold the servos was a little broken. THe tolerances were wrong and the screw didnt reach the entire way down. We didnt mesh the servos to the servo so the servo didn't move with the arm. We used a solder to heatset screws with the servo screws with the plastic. This way when the servo moved the entire thing moved
 
+
+## July 13: Roadblock number 4 - wiring
+I hate wiring. we were up at 4am redoing the entire wiring because their was issues with the gpio stuff.
+Here is a picture of the wiring. 
+
+ ![WhatsApp Image 2025-07-13 at 15 31 15_a4ac9f2a](https://github.com/user-attachments/assets/8efb8fc6-7504-477b-8493-d271c271c3e4)
+
 ## July 13: Assembly
 
 We assembled the entire bot! Here are some photos:
 
-![Uploading WhatsApp Image 2025-07-13 at 15.06.22_b849ab73.jpg…]()
+![WhatsApp Image 2025-07-13 at 15 06 22_39daa7c8](https://github.com/user-attachments/assets/0aef041b-5a82-4820-9ae1-544868b01030)
+![WhatsApp Image 2025-07-13 at 15 06 22_d549f691](https://github.com/user-attachments/assets/1c1052bc-bf50-4799-90e1-0ed4d45710d2)
 
 
 Just the team working
