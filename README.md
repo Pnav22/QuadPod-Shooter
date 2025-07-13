@@ -1,5 +1,5 @@
 # Quadrapod Turret
-This project, made for the Hack Club Undercity Hackathon, is a four-legged spider-bot with a turret mounted on top. Each leg consists of two servo motors, which allow for rotation in two axes. The turret has an automatic reloading and firing mechanism. The robot is controlled via Bluetooth with an Xbox controller. Made by Joel Biswas, Ayush Jaiswal, and Pranav.
+This project, made for the Hack Club Undercity Hackathon, is a four-legged spider-bot with a turret mounted on top. Each leg consists of two servo motors, which allow for rotation in two axes. The turret has an automatic reloading and firing mechanism. The robot is controlled via Bluetooth with an Xbox controller. Made by Joel Biswas, Ayush Jaiswal, and Pranav Mukkara.
 
 ## Movement
 The robot consists of four legs with two joints each. One of these joints uses  an MG996R servo motor and the other uses an SG90 servo motor. The motors work together to allow the leg to rotate on two separate axes. Together, the four legs allow the robot to walk around.
