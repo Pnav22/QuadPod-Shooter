@@ -24,3 +24,12 @@ Then we thought of making a four leg spider in order to have something cool. We 
 <img width="427" height="347" alt="image" src="https://github.com/user-attachments/assets/cabbf95f-4195-4f61-97bf-923ad53b68c4" />
 
 to make it even more cool we decide to add a nerf gon on the top. 
+
+## July 11-12: Getting started
+we started the cad and got to work. We got some basic cad stuff going on. 
+
+<img width="361" height="220" alt="image" src="https://github.com/user-attachments/assets/3713b3f5-0c17-44cc-99f3-3390ca0bf257" />
+
+we sent the stuff out to get printed. 
+One of our biggest mistakes was spending time cading and not getting parts. We finished the cad and but by the time we went down to get our prints all the motors we needed were gone. We needed two more 
+
