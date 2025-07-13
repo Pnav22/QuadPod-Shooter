@@ -4,6 +4,8 @@
 
 **Creators:** Joel Biswas, Ayush Jaiswal, and Pranav Mukkara
 
+<img width="932" height="702" alt="image" src="https://github.com/user-attachments/assets/a87fc767-5c6a-47cc-b973-113828d06f44" />
+
 ---
 
 ## Movement
