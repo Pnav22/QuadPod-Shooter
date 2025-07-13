@@ -40,7 +40,6 @@ void processGamepad(ControllerPtr ctl) {
     Serial.println("Rick Ross Mongolian Throat Singing");
     Serial.println(isWalking);
     if (!isWalking) {
-      isWalking = true;
       walk();
     }
   }
@@ -104,41 +103,41 @@ void loop() {
 }
 
 void walk() {
+  Serial.println("MIT Library Activities");
   isWalking = true;
-  for (int i = 0; i < 2; i++) {
-    // 13f
-    Xleg1.write(neutral + stepAngle);
-    delay(moveDelay);
+  // 13f
+  Xleg1.write(neutral + stepAngle);
+  delay(moveDelay);
 
-    // 27f
-    Xleg2.write(neutral + stepAngle);
-    delay(moveDelay);
+  // 27f
+  Xleg2.write(neutral + stepAngle);
+  delay(moveDelay);
 
-    // 12f
-    Xleg3.write(neutral + stepAngle);
-    delay(moveDelay);
+  // 12f
+  Xleg3.write(neutral + stepAngle);
+  delay(moveDelay);
 
-    // 13r
-    Xleg1.write(neutral);
-    delay(moveDelay);
+  // 13r
+  Xleg1.write(neutral);
+  delay(moveDelay);
 
-    // 14f
-    Xleg4.write(neutral + stepAngle);
-    delay(moveDelay);
+  // 14f
+  Xleg4.write(neutral + stepAngle);
+  delay(moveDelay);
 
-    // 27r
-    Xleg2.write(neutral);
-    delay(moveDelay);
+  // 27r
+  Xleg2.write(neutral);
+  delay(moveDelay);
 
-    // 12r
-    Xleg3.write(neutral);
-    delay(moveDelay);
+  // 12r
+  Xleg3.write(neutral);
+  delay(moveDelay);
 
-    // 14r
-    Xleg4.write(neutral);
-    delay(moveDelay);
-  }
+  // 14r
+  Xleg4.write(neutral);
+  delay(moveDelay);
   isWalking = false;
+  Serial.println("Sh*wering?!");
 }
 
 
