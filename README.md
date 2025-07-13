@@ -40,3 +40,15 @@ The mechanical prototype was modeled in Onshape and can be viewed [here](https:/
 - **Power:** 3S LiPo battery paired with a step-down converter to regulate voltage
 
 <img height="640" alt="SpiderElectronics" src="https://github.com/user-attachments/assets/5ef90585-03eb-4e1b-be08-aa07ac92e070" />
+
+
+| Item Name      | Quantity |
+|----------------|----------|
+| MG996R servo   | 4        |
+| MG996R servo   | 4        |
+| Jumper wires   | 30       |
+| ESP32          | 1        |
+| Breadboard     | 1        |
+| Buck converter | 1        |
+| 12 Volt battery| 1        |
+
