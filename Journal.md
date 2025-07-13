@@ -46,6 +46,9 @@ We sent the parts out to get printed. One of our biggest mistakes was spending t
 We decided to redo the CAD to work with the motors that were still available. Shoutout to Alex for coming in clutch and giving us two extra motors from a workshop!
 <img width="291" height="180" alt="image" src="https://github.com/user-attachments/assets/e6b8b61b-6d58-4796-8534-dc09a7b18025" />
 
+<img width="1068" height="727" alt="image" src="https://github.com/user-attachments/assets/93096382-8582-4ffc-8fd5-3784095c91f8" />
+
+
 ---
 
 ## July 12: Setting Up the ESP32
