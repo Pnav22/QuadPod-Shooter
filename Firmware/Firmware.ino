@@ -36,9 +36,13 @@ void onDisconnectedController(ControllerPtr)   {
 }
 
 void processGamepad(ControllerPtr ctl) {
-  if (ctl->a() && !isWalking) {
-    isWalking = true;
-    walk();
+  if (ctl->a()) {
+    Serial.println("Rick Ross Mongolian Throat Singing");
+    Serial.println(isWalking)
+    if (!isWalking) {
+      isWalking = true;
+      walk();
+    }
   }
 }
 
