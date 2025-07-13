@@ -41,14 +41,18 @@ The mechanical prototype was modeled in Onshape and can be viewed [here](https:/
 
 <img height="640" alt="SpiderElectronics" src="https://github.com/user-attachments/assets/5ef90585-03eb-4e1b-be08-aa07ac92e070" />
 
+## Bill of Materials
 
-| Item Name      | Quantity |
-|----------------|----------|
-| MG996R servo   | 4        |
-| MG996R servo   | 4        |
-| Jumper wires   | 30       |
-| ESP32          | 1        |
-| Breadboard     | 1        |
-| Buck converter | 1        |
-| 12 Volt battery| 1        |
+| Item                  | Quantity |
+|-----------------------|----------|
+| SG90 Servo Motor      | 5        |
+| MG996R Servo          | 5        |
+| ESP32 DevKit C        | 1        |
+| Breadboard            | 1        |
+| Male to Male Jumper Wires | 30       |
+| 3S LiPo Battery       | 1        |
+| 12V to 5V Buck Converter | 1        |
+| PLA (kgs)             | 1        |
+| N20 Motor             | 2        |
+| XT60 Male Connector   | 1        |
 
