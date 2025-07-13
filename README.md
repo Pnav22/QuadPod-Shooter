@@ -41,6 +41,7 @@ The mechanical prototype was modeled in Onshape and can be viewed [here](https:/
 
 <img height="640" alt="SpiderElectronics" src="https://github.com/user-attachments/assets/5ef90585-03eb-4e1b-be08-aa07ac92e070" />
 
+## Bill of Materials
 
 | Item                  | Quantity |
 |-----------------------|----------|
