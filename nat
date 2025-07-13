@@ -1,0 +1,66 @@
+#include <ESP32Servo.h>
+
+// Servo objects
+Servo leg1;  // D13 - back left
+Servo leg2;  // D27 - front right
+Servo leg3;  // D12 - back right
+Servo leg4;  // D14 - front left
+
+// Constants
+const int neutral = 90;       // neutral position
+const int stepAngle = 34;     // how far forward to move
+const int moveDelay = 300;    // wait time between movements
+
+void setup() {
+  leg1.setPeriodHertz(50);
+  leg1.attach(13);
+
+  leg2.setPeriodHertz(50);
+  leg2.attach(27);
+
+  leg3.setPeriodHertz(50);
+  leg3.attach(12);
+
+  leg4.setPeriodHertz(50);
+  leg4.attach(14);
+
+  // All start at neutral position
+  leg1.write(neutral);
+  leg2.write(neutral);
+  leg3.write(neutral);
+  leg4.write(neutral);
+  delay(1000);
+}
+
+void loop() {
+  for (int i = 0; i < 2; i++) {
+    // Move leg1 (D13) forward
+    leg1.write(neutral + stepAngle);
+    delay(moveDelay);
+    leg1.write(neutral);
+    delay(moveDelay);
+
+    // Move leg2 (D27) forward
+    leg2.write(neutral + stepAngle);
+    delay(moveDelay);
+    leg2.write(neutral);
+    delay(moveDelay);
+
+    // Move leg3 (D12) forward
+    leg3.write(neutral + stepAngle);
+    delay(moveDelay);
+    leg3.write(neutral);
+    delay(moveDelay);
+
+    // Move leg4 (D14) forward
+    leg4.write(neutral + stepAngle);
+    delay(moveDelay);
+    leg4.write(neutral);
+    delay(moveDelay);
+  }
+
+  // Stop after 2 cycles
+  while (true) {
+    // Hold in place
+  }
+}
