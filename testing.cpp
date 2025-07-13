@@ -5,14 +5,14 @@ Servo Xleg1;  // D13 - back left
 Servo Xleg2;  // D27 - front right
 Servo Xleg3;  // D12 - back right
 Servo Xleg4;  // D14 - front left
-Servo Yleg1;  
-Servo Yleg2;
+Servo Yleg1;  // D26 - back left
+Servo Yleg2;  // D
 Servo Yleg3;
 Servo Yleg4;
 
 // Constants
 const int neutral = 90;       // neutral position
-const int stepAngle = 15;     // how far forward to move
+const int stepAngle = 30;     // how far forward to move
 const int moveDelay = 500;    // wait time between movements
 
 void setup() {
@@ -38,7 +38,7 @@ void setup() {
   Yleg3.attach(25);
 
   Yleg4.setPeriodHertz(50);
-  Yleg4.attach(35);
+  Yleg4.attach(33);
 
   // All start at neutral position
   Xleg1.write(neutral);
@@ -55,33 +55,30 @@ void setup() {
 
 void loop() {
   for (int i = 0; i < 2; i++) {
-    // Move leg1 (D13) forward
-    Xleg1.write(neutral + stepAngle);
+    Yleg1.write(neutral + stepAngle);
     delay(moveDelay);
-    Xleg1.write(neutral);
-    delay(moveDelay);
-
-    // Move leg2 (D27) forward
-    Xleg2.write(neutral + stepAngle);
-    delay(moveDelay);
-    Xleg2.write(neutral);
+    Yleg1.write(neutral);
     delay(moveDelay);
 
-    // Move leg3 (D12) forward
-    Xleg3.write(neutral + stepAngle);
+    Yleg2.write(neutral + stepAngle);
     delay(moveDelay);
-    Xleg3.write(neutral);
+    Yleg2.write(neutral);
     delay(moveDelay);
 
-    // Move leg4 (D14) forward
-    Xleg4.write(neutral + stepAngle);
+    Yleg3.write(neutral + stepAngle);
     delay(moveDelay);
-    Xleg4.write(neutral);
+    Yleg3.write(neutral);
+    delay(moveDelay);
+
+    Yleg4.write(neutral + stepAngle);
+    delay(moveDelay);
+    Yleg4.write(neutral);
     delay(moveDelay);
   }
-
   // Stop after 2 cycles
   while (true) {
     // Hold in place
   }
 }
+
+
