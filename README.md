@@ -8,7 +8,7 @@
 
 ---
 
-## Movement
+## Movement Mechanism
 
 The robot has four legs, each with two joints controlled by servo motors:
 
@@ -30,18 +30,13 @@ Together, these allow each leg to move in two degrees of freedom, enabling the r
 
 ## Design
 
-The mechanical prototype was modeled in Onshape and can be viewed [here](https://cad.onshape.com/documents/1f07b48c7f0c844885f208f0/w/35ef43929f689d5c59df734c/e/4c060ffb7e05090ceb09d7bd?renderMode=0&uiState=6873fecd0579b80fab54201e).
+Cad can be viewed [here](https://cad.onshape.com/documents/1f07b48c7f0c844885f208f0/w/35ef43929f689d5c59df734c/e/4c060ffb7e05090ceb09d7bd?renderMode=0&uiState=6873fecd0579b80fab54201e).
 
 <img height="640" alt="SpiderCAD" src="https://github.com/user-attachments/assets/bea3b32c-5225-448c-92d8-1fc45c49b6b2" />
 
+Read Journal.md to see our engineering process!
 ---
 
-## Electronics
-
-- **Microcontroller:** ESP32  
-- **Power:** 3S LiPo battery paired with a step-down converter to regulate voltage
-
-<img height="640" alt="SpiderElectronics" src="https://github.com/user-attachments/assets/5ef90585-03eb-4e1b-be08-aa07ac92e070" />
 
 ## Bill of Materials
 
