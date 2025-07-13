@@ -38,7 +38,7 @@ void onDisconnectedController(ControllerPtr)   {
 void processGamepad(ControllerPtr ctl) {
   if (ctl->a()) {
     Serial.println("Rick Ross Mongolian Throat Singing");
-    Serial.println(isWalking)
+    Serial.println(isWalking);
     if (!isWalking) {
       isWalking = true;
       walk();
@@ -47,6 +47,8 @@ void processGamepad(ControllerPtr ctl) {
 }
 
 void setup() {
+  Serial.begin(115200);
+  pinMode(STATUS_LED, OUTPUT);
   digitalWrite(STATUS_LED, LOW);
 
   Xleg1.setPeriodHertz(50);
