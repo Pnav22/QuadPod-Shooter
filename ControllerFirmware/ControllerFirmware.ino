@@ -25,6 +25,7 @@ constexpr uint8_t legYChannel4 = 7;
 const int neutral = 90;    // reset position
 const int stepAngle = 60;  // how far forward to move
 const int moveDelay = 500; // wait time between movements
+const int swingAngle = 40;
 
 const int HERTZ = 50;
 const uint8_t BYTES = 12;
@@ -120,67 +121,6 @@ void loop()
     delay(10);
 }
 
-void walk()
-{
-    Serial.println("MIT Library Activities");
-    // 13f
-    writeToServo(legXChannel1, neutral + stepAngle);
-    delay(moveDelay);
-
-    writeToServo(legYChannel1, neutral + stepAngle);
-    delay(moveDelay);
-
-    // 27f
-    writeToServo(legXChannel2, neutral + stepAngle);
-    delay(moveDelay);
-
-    writeToServo(legYChannel2, neutral + stepAngle);
-    delay(moveDelay);
-
-    // 12f
-    writeToServo(legXChannel3, neutral + stepAngle);
-    delay(moveDelay);
-
-    writeToServo(legYChannel3, neutral + stepAngle);
-    delay(moveDelay);
-    // 13r
-    writeToServo(legXChannel1, neutral);
-    delay(moveDelay);
-
-    writeToServo(legYChannel1, neutral);
-    delay(moveDelay);
-    // 14f
-    writeToServo(legXChannel4, neutral + stepAngle);
-    delay(moveDelay);
-
-    writeToServo(legYChannel4, neutral + stepAngle);
-    delay(moveDelay);
-
-    // 27r
-    writeToServo(legXChannel2, neutral);
-    delay(moveDelay);
-
-    writeToServo(legYChannel2, neutral);
-    delay(moveDelay);
-
-    // 12r
-    writeToServo(legXChannel3, neutral);
-    delay(moveDelay);
-
-    writeToServo(legYChannel3, neutral);
-    delay(moveDelay);
-
-    // 14r
-    writeToServo(legXChannel4, neutral);
-    delay(moveDelay);
-
-    writeToServo(legYChannel4, neutral);
-    delay(moveDelay);
-
-    isWalking = false;
-    Serial.println("Sh*wering?!");
-}
-
 void writeToServo(int pwmChannel, int angle)
 {
     // Map angle (0–180) to pulse width in microseconds (1000–2000)
@@ -195,4 +135,28 @@ void writeToServo(int pwmChannel, int angle)
     Serial.println(duty);
 
     ledcWrite(pwmChannel, duty);
+}
+
+
+void walk() {
+  Serial.println("MIT Library Activities");
+
+  moveLeg(legXChannel1, legYChannel1, + stepAngle); // back left
+  moveLeg(legXChannel2, legYChannel2, + stepAngle); // front right
+  moveLeg(legXChannel3, legYChannel3, + stepAngle); // back right
+  moveLeg(legXChannel4, legYChannel4, + stepAngle); // front left
+
+  isWalking = false;
+  Serial.println("Sh*wering?!");
+}
+
+void moveLeg(int xChannel, int yChannel, int swingAngle) {
+  writeToServo(yChannel, neutral + swingAngle); // lift leg
+  delay(moveDelay / 2);
+  writeToServo(xChannel, neutral + swingAngle);
+  delay(moveDelay);
+  writeToServo(yChannel, neutral);
+  delay(moveDelay / 2);
+  writeToServo(xChannel, neutral);
+  delay(moveDelay);
 }
