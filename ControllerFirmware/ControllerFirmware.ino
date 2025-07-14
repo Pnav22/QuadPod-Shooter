@@ -127,32 +127,54 @@ void walk()
     writeToServo(legXChannel1, neutral + stepAngle);
     delay(moveDelay);
 
+    writeToServo(legYChannel1, neutral + stepAngle);
+    delay(moveDelay);
+
     // 27f
     writeToServo(legXChannel2, neutral + stepAngle);
+    delay(moveDelay);
+
+    writeToServo(legYChannel2, neutral + stepAngle);
     delay(moveDelay);
 
     // 12f
     writeToServo(legXChannel3, neutral + stepAngle);
     delay(moveDelay);
 
+    writeToServo(legYChannel3, neutral + stepAngle);
+    delay(moveDelay);
     // 13r
     writeToServo(legXChannel1, neutral);
     delay(moveDelay);
 
+    writeToServo(legYChannel1, neutral);
+    delay(moveDelay);
     // 14f
     writeToServo(legXChannel4, neutral + stepAngle);
+    delay(moveDelay);
+
+    writeToServo(legYChannel4, neutral + stepAngle);
     delay(moveDelay);
 
     // 27r
     writeToServo(legXChannel2, neutral);
     delay(moveDelay);
 
+    writeToServo(legYChannel2, neutral);
+    delay(moveDelay);
+
     // 12r
     writeToServo(legXChannel3, neutral);
     delay(moveDelay);
 
+    writeToServo(legYChannel3, neutral);
+    delay(moveDelay);
+
     // 14r
     writeToServo(legXChannel4, neutral);
+    delay(moveDelay);
+
+    writeToServo(legYChannel4, neutral);
     delay(moveDelay);
 
     isWalking = false;
