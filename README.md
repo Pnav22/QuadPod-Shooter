@@ -4,7 +4,9 @@
 
 **Creators:** Joel Biswas, Ayush Jaiswal, and Pranav Mukkara
 
-<img width="932" height="702" alt="image" src="https://github.com/user-attachments/assets/a87fc767-5c6a-47cc-b973-113828d06f44" />
+CAD                         |  IRL
+:-------------------------:|:-------------------------:
+![CAD Render](https://github.com/user-attachments/assets/e403affb-7970-4bed-9cbd-e9603c1d197d)  |  ![IRL Build](https://github.com/user-attachments/assets/d6193cea-4018-44f9-b0c1-3cdec59d902c)
 
 ---
 
