@@ -2,9 +2,18 @@
 
 **Quadrapod Turret** is a four-legged spider-bot equipped with a turret, created for the Hack Club Undercity Hackathon at github. Each leg has two servo motors that enable rotation across two axes, allowing the robot to walk smoothly. The turret features an automatic reloading and firing system. The entire robot is controlled wirelessly via Bluetooth using an Xbox controller.
 
+## Demo Video
+ [Watch it here on YouTube](https://www.youtube.com/shorts/YrqL98bALRE)
+
+## Build Journal
+Check out our full build log in [`journal.md`](https://github.com/Pnav22/QuadPod-Shooter/blob/main/Journal.md)
+
+
 **Creators:** Joel Biswas, Ayush Jaiswal, and Pranav Mukkara
 
-<img width="932" height="702" alt="image" src="https://github.com/user-attachments/assets/a87fc767-5c6a-47cc-b973-113828d06f44" />
+CAD                         |  IRL
+:-------------------------:|:-------------------------:
+![CAD Render](https://github.com/user-attachments/assets/e403affb-7970-4bed-9cbd-e9603c1d197d)  |  ![IRL Build](https://github.com/user-attachments/assets/d6193cea-4018-44f9-b0c1-3cdec59d902c)
 
 ---
 

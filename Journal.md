@@ -90,4 +90,7 @@ The team in action:
 
 ## July 13: Coding
 
-We're now deep into coding. Stay tuned for updates!
+We're now deep into coding.
+## July 14: Event End
+
+This hackathon has ended so we are not working on the project anymore. We had lots of fun!
