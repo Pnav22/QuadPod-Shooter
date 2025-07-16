@@ -6,8 +6,9 @@
  [Watch it here on YouTube](https://www.youtube.com/shorts/YrqL98bALRE)
 
 ## Build Journal
-Check out our full build log in [`journal.md`](https://github.com/Pnav22/QuadPod-Shooter/blob/main/Journal.md)
+Check out our full build log in [`journal.md`](https://github.com/Pnav22/QuadPod-Shooter/blob/main/Journal.md)   
 
+Check out some more pictures in [`Pictures`](https://github.com/Pnav22/QuadPod-Shooter/tree/main/Pictures)
 
 **Creators:** Joel Biswas, Ayush Jaiswal, and Pranav Mukkara
 
