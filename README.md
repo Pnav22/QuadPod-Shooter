@@ -6,7 +6,7 @@
  [Watch it here on YouTube](https://www.youtube.com/shorts/YrqL98bALRE)
 
 ## Build Journal
-We thought we needed a journal even tho we didnt so we made one. Check out our full build log in [`journal.md`](https://github.com/Pnav22/QuadPod-Shooter/blob/main/Journal.md)   
+We thought we needed a journal even though we didn't, so we made one. Check out our full build log in [`journal.md`](https://github.com/Pnav22/QuadPod-Shooter/blob/main/Journal.md)   
 
 Check out some more pictures in [`Pictures`](https://github.com/Pnav22/QuadPod-Shooter/tree/main/Pictures)
 
